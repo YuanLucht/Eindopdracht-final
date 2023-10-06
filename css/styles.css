@@ -1,0 +1,446 @@
+body header nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: large;
+    justify-content: space-around;
+    background-color: black;
+    padding: 1%;
+    margin: 0;
+}
+
+
+p {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+article ul {
+    margin: auto;
+    width: 20%;
+}
+
+#gsx header {
+    background-position: 50%;
+    background-image: url(../images/20190917120511-10822_jpgresize_1600x1200_.png);
+    height: 800px;
+    background-size: 1250px;
+    background-repeat: no-repeat;
+}
+
+#hayabusa header {
+    background-position: bottom;
+    background-image: url(../images/suzuki-hayabusa-2022-white-background-5k-5120x2880-4387.png);
+    height: 750px;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+#s1000rr header {
+    background-position: top;
+    background-image: url(../images/bmw_s1000rr_bmw_s1000_motorcycle_white_background_hd_bike.png);
+    height: 750px;
+    background-size: 1280px;
+    background-repeat: no-repeat;
+}
+
+#h900rr {
+    background-position: bottom;
+    background-image: url(../images/Generations/h900rr/1996.png);
+    height: 750px;
+    background-size: 1120px; 
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    margin-top: auto;
+}
+
+
+header nav ul li a, footer a {
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+}
+
+
+p,li {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#gsx main div {
+    display: flex;
+    justify-content: center;
+}
+#hayabusa main div {
+    display: flex;
+    justify-content: center;
+}
+#s1000rr main div {
+    display: flex;
+    justify-content: center;
+}
+#h900rr main div {
+    display: flex;
+    justify-content: center;
+}
+
+
+div figure img {
+    margin-left: 15%;
+    margin-bottom: 2%;
+    width: 70%;
+    transition: all 0.5s ease;
+}
+
+
+figcaption {
+    text-align: center;
+}
+
+div h4 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#h900rr main article h2 {
+    margin-top: 25%;
+}
+
+div figure img:hover {
+    transform: scale(1.1);
+}
+
+
+/* GSX 600 F EXTRA PAGE */
+
+#gsxone header h1 {
+    position: absolute;
+    margin-left: 17%;
+    color: white;
+    font-size: 100px;
+    opacity: calc(0%);
+}
+
+/* BG and text color */
+#gsxone {
+    background-color: black;
+    color: white;
+}
+
+/* GIF */
+#gsxone header img {
+    width: 100%;
+}
+
+
+#gsxone main p {
+    padding-bottom: 2%;
+}
+
+@keyframes test {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+ 
+}
+
+.test {
+    animation: test 6s ease-in-out 2.5s;
+}
+
+/* image column */
+#gsxone main div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+}
+
+#gsxone main div img {
+    width: 20%;
+    height: 13%
+}
+
+#gsxone header div {
+    right: -75px;
+    padding-bottom: 70px;
+    padding-left: 210px;
+    position: absolute;
+    font-size: xx-large;
+    background-color: black;
+    margin-right: 105px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#gsxone header div a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Hayabusa page */
+
+#hayabusaone {
+    background-color: black;
+}
+
+#hayabusaone img:nth-child(1) {
+    width: 100%;
+}
+
+
+.homebuttontwo a {
+    right: 25px;
+    position: absolute;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#hayabusaone main section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 5%;
+}
+
+#hayabusaone main section p {
+    color: white;
+    position: absolute;
+    width: 500px;
+    margin-left: 55%;
+    text-align: left;
+    padding-top: 2%;
+}
+
+#hayabusaone main section h2 {
+    color: white;
+    position: absolute;
+    width: 500px;
+    margin-left: 55%;
+    text-align: left;
+}
+
+#hayabusaone video {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    width: 80%;
+ }
+
+#hayabusaone footer p {
+    color: white;
+}
+
+/* BMW page */
+
+#srrone {
+    background-color: #9A9793;
+}
+
+#srrone header img:nth-child(2) {
+    width: 100%;
+    padding-bottom: 8%;
+}
+#srrone section div {
+    width: 60%;
+}
+
+
+#srrone header div a {
+    right: 25px;
+    position: absolute;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#srrone main section {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+#srrone main section img:nth-child(1) {
+    width: 15%;
+    padding-right: 10%;
+}
+
+.textrow {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+#srrone main section h2 {
+    color: #242526;
+}
+
+#srrone main h3 {
+    color: #242526;
+    padding-top: 15%;
+}
+
+.gallery {
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.gallery img {
+    width: 50%;
+}
+
+
+.design {
+    display: flex;
+    flex-direction: row;
+}
+.design p {
+    width: 70%;
+    text-align: left;
+}
+
+
+#srrone main section img {
+    transition:transform 0.25s ease;
+}
+
+#srrone main section img:hover {
+    transform: scale(1.5);
+}
+
+
+/* Honda CBR 900 RR page */
+
+#cbrextra header div {
+    position: absolute;
+    margin-left: 92%;
+    z-index: 1;
+}
+
+#cbrextra {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+#cbrextra header div a {
+    position: relative;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#cbrextra header img {
+    position: relative;
+    width: 100vw;
+}
+
+
+.parts {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+#cbrextra .parts img {
+    position: relative;
+    width: 28%;
+}    
+
+#cbrextra main section {
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#cbrextra main section img {
+    align-self: center;
+    width: 45%;
+}
+
+#cbrextra main section p {
+    align-self: center;
+    width: 70%;
+}
+
+#cbrextra main section div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -22em;
+    left: 20em;
+}
+
+#cbrextra main section div img:nth-child(1) {
+    width: 12%;
+    transition:transform 0.25s ease;
+}
+#cbrextra main section div img:nth-child(2) {
+    width: 12%;
+    transition: transform 0.25s ease;
+}
+
+#cbrextra main section div img:nth-child(1):hover {
+    transform: scale(1.5);
+}
+#cbrextra main section div img:nth-child(2):hover {
+    transform: scale(1.5);
+}
+
+#landing header img {
+    position: relative;
+    width: 100%;
+}
+#landing header h1 {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transition: transform 0.25s ease
+}
+
+#landing header h1 {
+    transition: transform 0.25s ease
+}
+#landing header h1:hover {
+    transform: scale(1.5);
+    color: lightgreen;
+}
